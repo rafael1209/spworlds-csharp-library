@@ -28,6 +28,6 @@ public class User
 
     public string GetSkinPart(SkinPart skinPart, string size = "64")
     {
-        return (string)$"https://visage.surgeplay.com/{skinPart}/{size}/{this.Uuid}";
+        return (string)$"https://avatar.spworlds.ru/{skinPart}/{size}/{this.Uuid}";
     }
 }
